@@ -12,5 +12,8 @@
     <ClInclude Include="Src\Inc\LightORM.hpp">
       <Filter>Core</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Inc\DBSystem.hpp">
+      <Filter>DB</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

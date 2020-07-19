@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Src\Inc\DBSystem.hpp" />
     <ClInclude Include="Src\Inc\LightORM.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
