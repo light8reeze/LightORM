@@ -1,5 +1,5 @@
 /**
-	@file	LightORM.h
+	@file	light-orm.hpp
 	@brief	LightORM Project's macro header
 	@date	2020-07-19
 	@auther light8reeze(light8reeze@gmail.com)

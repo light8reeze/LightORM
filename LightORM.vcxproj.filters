@@ -7,13 +7,27 @@
     <Filter Include="DB">
       <UniqueIdentifier>{e01dfb45-3c09-46d1-88d2-4ad1b89673e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Reflection">
+      <UniqueIdentifier>{e0c41ff5-2b1c-4a55-84e6-383806d32aed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Src\Inc\LightORM.hpp">
+    <ClInclude Include="Src\Inc\light-orm.hpp">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="Src\Inc\DBSystem.hpp">
+    <ClInclude Include="Src\Inc\database-system.hpp">
       <Filter>DB</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Inc\maria-db.hpp">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\reflection.hpp">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Cpp\main.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
