@@ -22,7 +22,7 @@
     <ClInclude Include="Src\Inc\database-system.hpp" />
     <ClInclude Include="Src\Inc\light-orm.hpp" />
     <ClInclude Include="Src\Inc\maria-db.hpp" />
-    <ClInclude Include="Src\Inc\reflection.hpp" />
+    <ClInclude Include="Src\Inc\orm.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Cpp\main.cpp" />

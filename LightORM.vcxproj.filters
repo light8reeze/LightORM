@@ -21,7 +21,7 @@
     <ClInclude Include="Src\Inc\maria-db.hpp">
       <Filter>DB</Filter>
     </ClInclude>
-    <ClInclude Include="Src\Inc\reflection.hpp">
+    <ClInclude Include="Src\Inc\orm.hpp">
       <Filter>Reflection</Filter>
     </ClInclude>
   </ItemGroup>
