@@ -12,9 +12,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Src\Inc\light-orm.hpp">
-      <Filter>Core</Filter>
-    </ClInclude>
     <ClInclude Include="Src\Inc\database-system.hpp">
       <Filter>DB</Filter>
     </ClInclude>
@@ -23,6 +20,9 @@
     </ClInclude>
     <ClInclude Include="Src\Inc\orm.hpp">
       <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\light-orm.hpp">
+      <Filter>Core</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

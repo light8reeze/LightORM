@@ -15,7 +15,7 @@ namespace lorm
 		@date				2020-07-19
 		@auther				light8reeze(light8reeze@gmail.com)
 	*/
-	template <typename Tdatabase>
+	template <typename database>
 	class database_system
 	{
 	public:
@@ -23,6 +23,6 @@ namespace lorm
 		~database_system();
 
 	private:
-		Tdatabase	dbs;
+		database	dbs;
 	};
 }
