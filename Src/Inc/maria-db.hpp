@@ -35,6 +35,8 @@ namespace lorm
 
 		template <size_t size>
 		std::string_view get_update_query(const std::array<std::string_view, size>& columns, const std::array<std::string_view, size>& values);
+		template <size_t size, typename key_type = void>
+		std::string_view get_select_query(const std::array<std::string_view, size>& columns, std::string_view key_column, key_type key);
 		template <size_t size>
 		std::string_view get_select_query(const std::array<std::string_view, size>& columns);
 		template <size_t size>
@@ -43,6 +45,7 @@ namespace lorm
 		object fetch();
 
 	private:
-		db_type mysql;
+		db_type		mysql;
+		res_type	result;
 	};
 }
